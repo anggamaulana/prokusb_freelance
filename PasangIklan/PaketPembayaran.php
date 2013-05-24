@@ -39,41 +39,7 @@ if(isset($_POST['submit'])){
         <div class="clearboth">
         </div>
         <h1>
-            Paket Pembayaran</h1> <br>
-			Silahkan Aktivasi member dengan melakukan pembayaran, silahkan pilih salah satu opsi paket
-        <pre>
-		
-<tr>
-  <form name="paketpembayaran"  method="post" action="index.php?p=c&c=e">
- 
-
- <p>Pilih Paket Pembayaran : <?php if(isset($paket))echo $paket;?></p>
- <input name="paket" type="radio" value="1">	<label>3 Bulan 3 Iklan (Rp.10.000,00)</label>
-	<label>{pilihan ini berisikan paket iklan selama 3 bulan dengan max iklan sebanyak 3 buah dengan biaya Rp.10.000,00}</label>
+         Selamat Datang</h1> <br>
 	
-	
- <input name="paket" type="radio" value="2">	<label>6 Bulan 6 Iklan (Rp.20.000,00)</label>
-	<label>{pilihan ini berisikan paket iklan selama 6 bulan dengan max iklan sebanyak 6 buah dengan biaya Rp.20.000,00}</label>
-	
-	
- <input name="paket" type="radio" value="3">	<label>12 Bulan 12 Iklan (Rp.35.000,00)</label>
-	<label>{pilihan ini berisikan paket iklan selama 12 bulan dengan max iklan sebanyak 12 buah dengan biaya Rp.35.000,00}</label>
-	
- 
- <input type="submit" name="submit" value="Pilih">
-  
- </pre>
-</form>
-
-
-
-
-
-
-				</center>
-			</td>
-			</td>
-  </tr>
-   
        
 </div></div>        
